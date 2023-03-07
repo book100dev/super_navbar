@@ -1,0 +1,26 @@
+name: super_navbar
+description: A new Flutter package project.
+version: 0.0.1+2
+homepage: http://localhost:8089
+author: songjie<jw007800@yeah.net>
+publish_to: http://localhost:8089
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cached_network_image: 3.0.0
+  badges: ^3.0.2
+  stacked: ^3.0.1
+  union_tabs:
+    path: ../union_tabs
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
